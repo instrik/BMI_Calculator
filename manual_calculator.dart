@@ -10,10 +10,6 @@ class Calculator extends StatefulWidget {
   State<Calculator> createState() => _CalculatorState();
 }
 
-class _CalculatorState extends State<Calculator> {
-  String userInput = '';
-  String answer = '';
-
   void equalPress() {
     String finalUserInput = userInput;
     finalUserInput = userInput.replaceAll('x', '*');
@@ -23,6 +19,10 @@ class _CalculatorState extends State<Calculator> {
     double eval = expression.evaluate(EvaluationType.REAL, contextModel);
     answer = eval.toString();
   }
+
+class _CalculatorState extends State<Calculator> {
+  String userInput = '';
+  String answer = '';
 
   @override
   Widget build(BuildContext context) {
