@@ -14,15 +14,7 @@ class _CalculatorState extends State<Calculator> {
   String userInput = '';
   String answer = '';
 
-  void equalPress() {
-    String finalUserInput = userInput;
-    finalUserInput = userInput.replaceAll('x', '*');
-    Parser p = Parser();
-    Expression expression = p.parse(finalUserInput);
-    ContextModel contextModel = ContextModel();
-    double eval = expression.evaluate(EvaluationType.REAL, contextModel);
-    answer = eval.toString();
-  }
+
 
   @override
   Widget build(BuildContext context) {
