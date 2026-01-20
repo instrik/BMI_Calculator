@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'screens/input_page.dart';
  
-//trial  jkjmjjjkkmpp;
+//trial h
 
 void main() {
   runApp(Bmi());
@@ -27,6 +27,7 @@ class _BmiState extends State<Bmi> {
     );
   }
 }
+
 
 
 
