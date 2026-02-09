@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import '../constants.dart';
 import 'package:Bmi/components/bottom_button.dart';
 
+// trial comment sd
+
 class ResultsPage extends StatelessWidget {
   ResultsPage(
       {required this.interpretation,
@@ -81,3 +83,4 @@ class ResultsPage extends StatelessWidget {
     );
   }
 }
+
