@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'screens/input_page.dart';
  
-//trial comment ggn lkjikjpihuboiu
+//trial comment ggn hbhbh
 
 void main() {
   runApp(Bmi());
